@@ -5,58 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Header Logo</h1>
-        <nav>
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </nav>
-        <div>
-            <h1>This website is awesome</h1>
-            <h2>this website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</h2>
-            <button>Sign up</button>
-            <div><img src="" alt="this is a placeholdeer for an image"></div>
+        <div class="main-header">
+                <h1>Header Logo</h1>
+            <nav>
+                <ul>
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="head">
+            <div class="head-text">
+                <h1>This website is awesome</h1>
+                <h2>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</h2>
+                <button>Sign up</button>
+            </div>
+            <div id="head-img"><p>this is a placeholdeer for an image</p></div>
         </div>
     </header>
-    <section>
+    <section class="img-sect">
         <h2>Some random information</h2>
-        <figure>
-            <img src="hp.jpeg" alt="">
-            <figcaption>This is some subtext under an illustration or image</figcaption>
-        </figure>
-        <figure>
-            <img src="hp.jpeg" alt="">
-            <figcaption>This is some subtext under an illustration or image</figcaption>
-        </figure>
-        <figure>
-            <img src="hp.jpeg" alt="">
-            <figcaption>This is some subtext under an illustration or image</figcaption>
-        </figure>
-        <figure>
-            <img src="hp.jpeg" alt="">
-            <figcaption>This is some subtext under an illustration or image</figcaption>
-        </figure>
+        <div class="figures">
+            <figure class="img">
+                <div class="img-holder"></div>
+                <figcaption>This is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure class="img">
+                <div class="img-holder"></div>
+                <figcaption>This is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure class="img">
+                <div class="img-holder"></div>
+                <figcaption>This is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure class="img">
+                <div class="img-holder"></div>
+                <figcaption>This is some subtext under an illustration or image</figcaption>
+            </figure>
+        </div>
     </section>
-    <section>
-        <figure>
-            <p>This is an insipring quote or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice </p>
-            <figcaption>
-                <cite>Thor, God of Thunder</cite>
+    <section class="information">
+        <figure class="quote">
+            <cite>This is an insipring quote or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice </cite>
+            <figcaption class="cite">
+                <p>- Thor, God of Thunder</p>
             </figcaption>
         </figure>
-        <div>
-            <h3>Call to action! It's time!</h3>
-            <h4>Sign up for our product by clicking the button right over there!</h4>
+        <div class="blue-info">
+            <p class="call">Call to action! It's time!</p>
+            <div class="sign-up">
+                <p class="reg">Sign up for our product by clicking the button right over there!
+                </p>
             <button>Sign up</button>
+            </div>
         </div>
     </section>
     <footer>
-        <p>Copyright The Odin Project 2022</p>
+        <p>Copyright © The Odin Project 2022</p>
     </footer>
 </body>
 </html>

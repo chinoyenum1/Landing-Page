@@ -1,0 +1,165 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+main-header, h1{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding-right: 0px;
+    gap: 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+.head-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 0px;
+    color: #f9faf8;
+}
+
+.head-text h2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    padding: 5px;
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.head{
+    margin: 80px 100px;
+    display: flex;
+    gap: 50px;
+}
+
+#head-img{
+    display: flex;
+    width: 1200px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+section h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.img-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;padding-bottom: 50px; 
+}
+
+.figures{
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
+
+.img-holder{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+
+figcaption{
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* .information{
+    border: 1px solid red;
+} */
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin: 0px;
+    padding: 100px 250px;
+}
+
+.quote cite{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
+    color: #1f2937;
+}
+
+.cite{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    width: 400px;
+}
+
+.blue-info{
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 150px;
+    border-radius: 5px;
+    padding: 40px 80px;color: white;
+}
+
+.call{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.reg{
+    margin: 0px;
+    font-size: 14px;
+    
+}
+
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
