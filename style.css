@@ -8,7 +8,16 @@ header{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+}
 
+#main-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+#placeholder{
+    width: 600px;
+    height: 250px;
 }
 
 .main-header{
@@ -71,6 +80,9 @@ button{
     color: white;
     
 }
+a#more-info{
+    color: wheat;
+}
 
 section h2{
     font-size: 36px;
@@ -104,9 +116,7 @@ figcaption{
     margin-top: 10px;
 }
 
-/* .information{
-    border: 1px solid red;
-} */
+
 .quote{
     display: flex;
     flex-direction: column;
@@ -127,6 +137,13 @@ figcaption{
     font-weight: bold;
     align-self: flex-end;
     width: 400px;
+}
+
+.cite p{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
 }
 
 .blue-info{
